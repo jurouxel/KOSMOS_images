@@ -41,7 +41,7 @@ Placer les vidéos à traiter dans le dossier "Videos", le script s'occupera de 
 ## II/ Lancer l'algorithme 
 
 ### 1. Renseigner les paramètres 
-Dans le script processing.py il y a une partie déstiné à renseigner certains paramètres (ligne 335 à 351): 
+Dans le script processing.py il y a une partie déstiné à renseigner certains paramètres (ligne 335 à 353): 
 
 ``` 
 ### PARAMETRES A RENSEIGNER ### 
