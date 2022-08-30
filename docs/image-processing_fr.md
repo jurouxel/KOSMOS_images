@@ -21,7 +21,7 @@ Le but de cet algorithme est d'améliorer les vidéos sous-marines en traitant l
    - moviepy
    - Pathlib
    - Imageio 
-   - OS (n'existe pas)
+   - OS_sys
    - multiprocessing (Erreur installation)
    - concurrent.futures (Introuvable)
 
