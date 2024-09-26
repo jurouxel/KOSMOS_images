@@ -3,6 +3,8 @@
 Created on Tue Aug  2 13:13:31 2022
 
 @author: zdaheron
+
+modified by gheleguen 30/08/2022
 """
 
 import moviepy.editor
@@ -14,12 +16,9 @@ import shutil
 import imageio
 import pathlib
 import os
-import time
 import concurrent.futures
 from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
-import multiprocessing
 from multiprocessing import freeze_support
-import concurrent.futures
 
 
 ############### Fonctions pour les vidéos #####################################
@@ -337,9 +336,11 @@ def temps (method, a, b):
 
 filename_video = './Videos/MOV_0008.mp4' 
 
+# Renseigner ici la minute de début (db_min) et la valeur secondes de début (db_s)
 db_min = 0
 db_s =0
 
+# Renseigner ici la minute de fin (fin_min) et la valeur secondes de fin (fin_s)
 # Pour ne traiter qu'une frame il est possible de définir fin_min et fin_s à 0
 fin_min = 0
 fin_s= 4
@@ -347,7 +348,7 @@ fin_s= 4
 #variable pour choisir la méthode de traitement : "retinex" / "HE" / "UDCP" 
 method = "UDCP"
 
-filename_video2 = "./Videos/video.mp4"
+filename_video2 = "./Videos_traitees/video.mp4"
 
 #########################################################################
 
